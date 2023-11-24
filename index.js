@@ -4,7 +4,7 @@ const app = express();
 const session = require('express-session');
 const MongoStore = require('connect-mongo');
 
-const port = 5300;
+const port = 3000;
 const corsOptions = {
   origin : '*',
   credentials : true,
